@@ -1,3 +1,9 @@
+// For K largest or K smallest element in an array create a Min heap or Max Heap respectively
+// and push first k elements in that heap and for the rest of the elements compare them with
+// the root node of heap and if they are large or small respectively then pop that node from
+// heap and push our new element, and in the end we will have the root node as out answer to
+// question.
+
 use std::{cmp::Ordering, collections::BinaryHeap};
 
 #[derive(PartialEq, Debug)]
